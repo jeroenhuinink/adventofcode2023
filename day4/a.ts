@@ -1,10 +1,3 @@
-interface PartNumber {
-  value: string;
-  start: number;
-  end: number;
-  line: number;
-}
-
 async function A() {
   function process(input: string): number {
     const lines = input.split("\n").filter(Boolean);

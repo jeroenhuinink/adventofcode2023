@@ -1,7 +1,6 @@
 async function A() {
   function distance(pressLength: number, duration: number) {
     const raceLength = duration - pressLength;
-    // console.log('d', duration, raceLength, pressLength);
     return pressLength * raceLength;
   }
 
